@@ -1,0 +1,64 @@
+.scrollSectionContainer {
+  overflow: hidden;
+}
+
+.scrollSectionInner {
+  margin: 0 25%;
+  height: 100vh;
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scrollSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.card {
+  background: hsl(334, 42.1%, 14.9%);
+  border-radius: 16px;
+  overflow: hidden;
+  width: 500px;
+  min-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.cardImageContainer {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.cardImageContainer:hover .cardImage {
+  transform: scale(1.05);
+}
+
+.cardContent {
+  padding: 32px;
+}
+
+.cardHeader {
+  font-size: 28px;
+  margin: 0 0 16px 0;
+  color: #e3d2ca;
+  font-weight: 600;
+}
+
+.cardDescription {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d1b6a9bf;
+  margin: 0;
+}
